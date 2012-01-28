@@ -1,0 +1,158 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{enumitem}
+\raggedright
+
+% Variables
+\newcommand{\me}      {Nathan Bergey}
+\newcommand{\email}   {nathan.bergey@gmail.com}
+\newcommand{\address} {\begin{minipage}{2in}\raggedright3278 SE Hawthorne Blvd.\par Portland, OR \ 97214\end{minipage}}
+\newcommand{\website} {http://mechanicalintegrator.com}
+\newcommand{\phone}   {$503\cdot853\cdot9355$}
+
+\newcommand{\PSAS}{\textsc{psas}}
+
+% make pretty page header
+\newcommand{\resumepageheader}{
+  \begin{center}
+    {\LARGE{\textsc{\me}}}
+
+    \vspace{0.2in}
+
+    \begin{tabular*}{6.5in}{l c@{\extracolsep{\fill}} r}
+      \address & \email & Phone: \phone \\
+    \end{tabular*}
+    
+    \vspace{0.02in}
+
+    \line(1,0){450}
+  \end{center}
+}
+
+% statement
+\newcommand{\resumestatement}[1]{
+  \vspace{0.05in}
+  \textsc{\Large Summary}
+  \vspace{0.1in}
+  \begin{center}
+    \begin{minipage}{5.5in}
+      \small
+      #1
+    \end{minipage}
+  \end{center}
+  \vspace{0.078in}
+}
+
+% section headers
+\newcommand{\resumeheader}[1]{
+  \vspace{0.05in}
+  \textsc{\Large #1}
+  \vspace{0.10in}
+}
+
+% item
+\newcommand{\resumeitem}[4]{
+  {\addtolength{\leftskip}{0.21in}
+    \begin{tabular*}{6.25in}{l@{\extracolsep{\fill}} r}
+      {\textbf{#1}} & {\textbf{#2}} \\
+    \end{tabular*}
+    
+  }
+  
+  \vspace{0.01in}
+  {\addtolength{\leftskip}{0.3in}
+    \textit{#3}
+  
+  }
+  
+  \vspace{0.09in}
+  {\addtolength{\leftskip}{0.3in}
+    \small
+    \begin{minipage}{5in}
+      #4
+    \end{minipage}
+    
+  }
+  
+  \vspace{0.15in}
+}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+\begin{document}
+
+%%%% Header
+\resumepageheader
+
+%%%% Statement
+\resumestatement{
+                  Passionate, creative data scientist with a cross-disciplinary 
+                  background. Voracious researcher with an appetite for hard problems 
+                  worth solving. Communicates complex ideas with clean simple explanations
+                  and visual analogies.
+                }
+
+
+%%%% Work Experience
+\resumeheader{Experience} 
+
+\resumeitem{Founder}{2011--Present}%
+           {open-notify.org, Portland, OR}%
+           {
+              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
+                \renewcommand{\labelitemi}{---}
+                \item Designed a lamp that lights up when the International Space Station is overhead
+                \item Put concept on the social fundraising platform Kickstarter; raised 300\% of initial fundraising goals
+                \item Created the first open \textsc{json} web \textsc{api} for International Space Station passes
+                \item Responsible for electrical design, manufacturing, website development, client software, firmware, customer service, and press
+              \end{itemize}
+           }
+
+\resumeitem{Resident Scientist (volunteer)}{2008--Present}%
+           {Portland State Aerospace Society, Portland OR}%
+           {
+              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
+                \renewcommand{\labelitemi}{---}
+                \item One of the most advanced amateur rocketry groups in the world
+                \item Heavily involved in overall project management and group direction
+                \item Oversaw and created the majority of visualizations and analysis of flight data
+                \item Created data visualizations that helped \PSAS\ understand and improve flight models
+                \item Wrote an application for real time playback of simulation data during launches to track flight events and get immediate performance feedback
+                \item Wrote a very fast simulation engine for performance optimization research
+                \item Contributed greatly to \PSAS's online presence with typography, graphics, and documentation
+                \item Acted as primary public speaker, clearly communicating group goals, getting press, attracting talent, and explaining complex rocketry concepts
+              \end{itemize}
+           }
+           
+\resumeitem{IT Consultant}{2007--9}%
+           {Strategic Solutions NW, Portland OR}%
+           {
+              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
+                \renewcommand{\labelitemi}{---}
+                \item Balanced many client projects at once, solved problems for clients in disparate fields
+                \item Quickly learned new software systems saving lots of money otherwise spent on training
+              \end{itemize}
+           }
+           
+%%%% Education
+\resumeheader{Education}
+
+\resumeitem{Bachelor of Science, Physics} {2006}%
+           {Appalachian State University, Boone NC}%
+           {
+              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
+                \renewcommand{\labelitemi}{---}
+                \item Concentration in astronomy; coursework included computational physics and orbital mechanics
+                \item Research in stellar spectroscopy, astronomical instrumentation
+              \end{itemize}
+           }
+           
+%%%% Skilz
+\resumeheader{Skills} 
+
+\begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
+  \renewcommand{\labelitemi}{---}
+  \item Primary programming languages: \textsc{c}, Python
+  \item Familiar languages: C\#, Java, Javascript, Arduino, Processing.org, SQL
+  \item Markup languages: \textsc{html}/\textsc{css}, \textsc{svg}, \LaTeX
+\end{itemize}
+              
+\end{document}
