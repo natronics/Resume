@@ -1,6 +1,6 @@
 # Résumé of Nathan Bergey
 
-Download pdf: nathanbergey.pdf (99.2 KB)
+Download pdf: [nathanbergey.pdf](https://github.com/natronics/Resume/raw/master/nathanbergey.pdf) (99.2 KB)
 
 ## Summary
 
