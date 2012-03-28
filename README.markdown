@@ -10,6 +10,12 @@ clear explanations and visual analogies.
 
 ## Experience
 
+### Visiting Scholar 2012&ndash;Present
+
+**Portland State University, Portland, OR**
+
+Continuing my work for PSAS in a more official capacity
+
 ### Founder 2011&ndash;Present
 
 **open-notify.org, Portland, OR**
@@ -19,7 +25,6 @@ Space Station is overhead
 
  - Raised 300% of fundraising goals on the social fundraising platform Kickstarter
  - Established the first open web API for International Space Station passes
- - Managed design, manufacturing, software, customer interaction, and press
 
 ### Rocket Scientist 2008&ndash;Present
 
@@ -44,7 +49,6 @@ corporations
 
  - Balanced many projects at once; meeting deadlines and creating client satisfaction
  - Rescued failing projects from other agencies and transformed them into successes
- - Quickly learned new software systems saving money otherwise spent on training
  
 ## Education
 
@@ -54,7 +58,9 @@ corporations
 
  - Concentration in astronomy; coursework included computational physics and orbital mechanics
 
-## Skills
+## Computer Skills
+
+Cross platform familiarity (OS independent); works in Linux most frequently; Uses many tools for visualization work, often writing my own where none exist
 
  - Primary programming languages: c, Python
  - Familiar languages: C#, Java, Javascript, Arduino, Processing.org, SQL
