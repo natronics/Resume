@@ -1,30 +1,33 @@
 # Résumé of Nathan Bergey
 
-Download pdf: [nathanbergey.pdf](https://github.com/natronics/Resume/raw/master/nathanbergey.pdf) (99.2 KB)
+Download pdf: [nathanbergey.pdf](https://github.com/natronics/Resume/raw/master/nathanbergey.pdf) (106.9 kB)
 
 ## Summary
 
-Creative data scientist with a cross-disciplinary background and a passion for spaceflight. Voracious
-researcher with an appetite for hard problems worth solving. Communicates complex ideas with
-clear explanations and visual analogies.
+Creative cross-disciplinary data scientist with a background and a 
+passion for spaceflight. Voracious researcher with an appetite for 
+hard problems. Communicates complex ideas with clear explanations 
+and visual analogies.
 
 ## Experience
-
-### Visiting Scholar 2012&ndash;Present
-
-**Portland State University, Portland, OR**
-
-Continuing my work for PSAS in a more official capacity
 
 ### Founder 2011&ndash;Present
 
 **open-notify.org, Portland, OR**
 
-An open source project that started with a lamp that lights up when the International
-Space Station is overhead
+An open source set of spaceflight \textsc{api}s that started with a 
+hardware project on Kickstarter called ISS Notify
 
  - Raised 300% of fundraising goals on the social fundraising platform Kickstarter
  - Established the first open web API for International Space Station passes
+
+### Consultant 2011&ndash;Present
+
+**Self Employed, Portland, OR**
+
+Various work for various companies and individuals
+
+ - Data visualization, web frontend, electrical engineering, graphic design, etc.
 
 ### Rocket Scientist 2008&ndash;Present
 
@@ -35,8 +38,7 @@ One of the most advanced amateur rocketry groups in the world
  - Analyzed flight, simulation, and test data to facilitate an understanding of the physical processes involved in aerospace systems
  - Composed visualizations that helped PSAS comprehend and improve flight models
  - Created an application for real time playback of simulation data during launches to track flight events and get immediate performance feedback
- - Wrote a very fast simulation engine for rocket optimization research
- - Contributed greatly to psas’s online presence with typography, graphics, and documentation
+ - Contributed greatly to PSAS’s online presence with typography, graphics, and documentation
  - Wrote a very fast simulation engine for performance optimization research
  - Clearly communicated group goals as a public speaker; got press, attracted talent, and explained complex rocketry concepts to the general public
  
@@ -56,12 +58,13 @@ corporations
 
 **Appalachian State University, Boone NC**
 
- - Concentration in astronomy; coursework included computational physics and orbital mechanics
+ - Concentration in astronomy; involved in research outside of courses
 
 ## Computer Skills
 
-Cross platform familiarity (OS independent); works in Linux most frequently; Uses many tools for visualization work, often writing my own where none exist
+Comfortable across OS's; works in Linux; Uses many tools often writing my own to fill gaps 
 
  - Primary programming languages: c, Python
  - Familiar languages: C#, Java, Javascript, Arduino, Processing.org, SQL
  - Markup languages: HTML/CSS, SVG, LaTeX
+ - Libraries and packages: Wordpress, Django, web.py, matplotlib, d3, bootstrap
