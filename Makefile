@@ -1,8 +1,15 @@
-TEXFILE = nathanbergey.tex
+TEXFILE = nathanbergey
+TEKJUNK = *.dvi *.aux *.log *.nav *.out *.snm *.toc
 
-all:
-	pdflatex $(TEXFILE)
-	$(RM) *.dvi *.aux *.log *.nav *.out *.snm *.toc
+all: pdf
+
+pdf: jekyll
+	cd _site; pdflatex $(TEXFILE).tex
+	mv _site/$(TEXFILE).pdf ./
+
+jekyll:
+	jekyll build
 
 clean:
-	$(RM) *.dvi *.aux *.log *.nav *.out *.snm *.toc *.pdf
+	$(RM) $(TEKJUNK) *.pdf
+	$(RM) -r _site
