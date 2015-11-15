@@ -1,13 +1,9 @@
-\documentclass[letterpaper,10pt]{article}
-\usepackage[empty]{fullpage}
-\usepackage{enumitem}
-\raggedright
+---
+layout: latex
+documentclass: article
+fontsize: 10pt
+---
 
-\addtolength{\textheight}{+.5in}
-
-% Variables
-\newcommand{\me}      {Nathan Bergey}
-\newcommand{\email}   {nathan.bergey@gmail.com}
 \newcommand{\address} {\begin{minipage}{2in}\raggedright3278 SE Hawthorne Blvd.\par Portland, OR \ 97214\end{minipage}}
 \newcommand{\website} {http://mechanicalintegrator.com}
 \newcommand{\phone}   {$503\cdot853\cdot9355$}
@@ -17,14 +13,14 @@
 % make pretty page header
 \newcommand{\resumepageheader}{
   \begin{center}
-    {\LARGE{\textsc{\me}}}
+    {\LARGE{\textsc{ {{ site.data.nathanbergey.basics.name }}  }}}
 
     \vspace{0.2in}
 
     \begin{tabular*}{6.5in}{l c@{\extracolsep{\fill}} r}
-      \address & \email & Phone: \phone \\
+      \address & {{ site.data.nathanbergey.basics.email }} & Phone: \phone \\
     \end{tabular*}
-    
+
     \vspace{0.02in}
 
     \line(1,0){450}
@@ -57,76 +53,45 @@
     \begin{tabular*}{6.25in}{l@{\extracolsep{\fill}} r}
       {\textbf{#1}} & {\textbf{#2}} \\
     \end{tabular*}
-    
+
   }
-  
+
   \vspace{0.01in}
   {\addtolength{\leftskip}{0.3in}
     \textit{#3}\par
   }
-  
+
   \vspace{0.07in}
   {\addtolength{\leftskip}{0.3in}
     \small
     \begin{minipage}{5in}
       #4
     \end{minipage}
-    
+
   }
   \vspace{0.15in}
 }
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
 \begin{document}
 
-%%%% Header
 \resumepageheader
 
-%%%% Statement
 \resumestatement{
-                  Creative cross-disciplinary programmer with a background 
-                  and a passion for spaceflight. Voracious researcher with an 
-                  appetite for hard problems. Communicates complex ideas with 
-                  clear explanations and visual analogies.
-                }
+  {{ site.data.nathanbergey.basics.summary }}
+}
 
-%%%% Work Experience
 \resumeheader{Experience}
-           
-\resumeitem{Founder}{2011--Present}%
-           {open-notify.org, Portland, OR}%
-           {
-              An open source set of spaceflight \textsc{api}s.
-              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-                \renewcommand{\labelitemi}{---}
-                \item First open \textsc{api} for International Space Station passes
-                \item 10 million requests per month
-              \end{itemize}
-           }
 
-\resumeitem{Consultant}{2010--Present}%
-           {Self Employed, Portland, OR}%
-           {
-              Various work for various companies and individuals
-              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-                \renewcommand{\labelitemi}{---}
-                \item Data visualization, full stack web, electrical engineering, graphic design, \textit{etc}.
-                \item Focus on web technologies
-              \end{itemize}
-           }
+{% for job in site.data.nathanbergey.work %}
 
-\resumeitem{Volunteer Rocket Scientist}{2008--Present}%
-           {Portland State Aerospace Society, Portland OR}%
-           {
-              One of the most advanced amateur rocketry groups in the world
-              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-                \renewcommand{\labelitemi}{---}
-                \item Analyzed flight, simulation, and test data to facilitate an understanding of the physical processes involved in aerospace systems
-                \item Created an application for real time viewing of data during launches to track flight events and have immediate performance feedback
-                \item Composed visualizations that helped \PSAS\ comprehend and improve flight models
-                \item Contributed greatly to \PSAS's online presence with typography, graphics, and documentation
-                \item Clearly communicated group goals as a public speaker; attracted press, talent, and explained complex rocketry concepts to the general public
-              \end{itemize}
-           }
+\resumeitem{ {{job.position}} }{  {{ job.startDate | date: "%Y" }}--{{ job.endDate | date: "%Y" }} }%
+{ {{ job.company }}, {{ job.website}} }%
+{
+  {{ job.summary }}
+}
+{% endfor %}
+
+
 
 \resumeitem{IT Consultant}{2007--9}%
            {Strategic Solutions NW, Portland OR}%
@@ -152,7 +117,7 @@
            }
 
 %%%% Skilz
-\resumeheader{Computer Skills} 
+\resumeheader{Computer Skills}
 
 Comfortable across OS's; works in Linux; Uses many tools often writing my own to fill gaps
 \small
