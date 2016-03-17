@@ -1,4 +1,5 @@
-markdown: kramdown
 exclude:
-  - Makefile
-  - favicon.svg
+ - README.markdown
+ - Makefile
+markdown: kramdown
+highlight: rouge

@@ -1,15 +1,19 @@
 TEXFILE = nathanbergey
-TEKJUNK = *.dvi *.aux *.log *.nav *.out *.snm *.toc
 
 all: pdf
 
 pdf: jekyll
 	cd _site; pdflatex $(TEXFILE).tex
 	mv _site/$(TEXFILE).pdf ./
+	jekyll build
 
 jekyll:
 	jekyll build
 
+test:
+	cp nathanbergey.json resume.json
+	resume test
+	rm resume.json
+
 clean:
-	$(RM) $(TEKJUNK) *.pdf
-	$(RM) -r _site
+	$(RM) -rf _site
