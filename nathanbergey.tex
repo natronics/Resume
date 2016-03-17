@@ -4,8 +4,8 @@ documentclass: article
 fontsize: 10pt
 ---
 
-\newcommand{\address} {\begin{minipage}{2in}\raggedright3278 SE Hawthorne Blvd.\par Portland, OR \ 97214\end{minipage}}
-\newcommand{\website} {http://mechanicalintegrator.com}
+\newcommand{\address} {\begin{minipage}{2in}\raggedright1000 Maxwell Ave. Apt 9\par Boulder, CO \ 80304\end{minipage}}
+\newcommand{\website} {https://natronics.github.io}
 \newcommand{\phone}   {$503\cdot853\cdot9355$}
 
 \newcommand{\PSAS}{\textsc{psas}}
@@ -80,7 +80,7 @@ fontsize: 10pt
   {{ site.data.nathanbergey.basics.summary }}
 }
 
-\resumeheader{Experience}
+\resumeheader{Work Experience}
 
 {% for job in site.data.nathanbergey.work %}
 
@@ -91,42 +91,38 @@ fontsize: 10pt
 }
 {% endfor %}
 
+\resumeheader{Volunteer Work}
 
+{% for job in site.data.nathanbergey.volunteer %}
 
-\resumeitem{IT Consultant}{2007--9}%
-           {Strategic Solutions NW, Portland OR}%
-           {
-              A small group of technology and management consultants working for medium to large corporations
-              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-                \renewcommand{\labelitemi}{---}
-                \item Balanced many projects at once; meeting deadlines and creating client satisfaction
-                \item Rescued failing projects from other agencies and transformed them into successes
-              \end{itemize}
-           }
+\resumeitem{ {{job.position}} }{  {{ job.startDate | date: "%Y" }}--{{ job.endDate | date: "%Y" }} }%
+{ {{ job.organization }}, {{ job.website}} }%
+{
+  {{ job.summary }}
+}
+{% endfor %}
+
 
 %%%% Education
 \resumeheader{Education}
 
-\resumeitem{Bachelor of Science, Physics} {2006}%
-           {Appalachian State University, Boone NC}%
-           {
-              \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-                \renewcommand{\labelitemi}{---}
-                \item Concentration in astronomy; involved in research outside of courses
-              \end{itemize}
-           }
+{% for school in site.data.nathanbergey.education %}
+\resumeitem{ {{ school.studyType }}, {{ school.area }} } { {{ school.endDate | date: "%Y" }} }%
+           { {{ school.institution }} }%
+{% endfor %}
 
 %%%% Skilz
-\resumeheader{Computer Skills}
+\resumeheader{Skills}
 
-Comfortable across OS's; works in Linux; Uses many tools often writing my own to fill gaps
+{% for skill in site.data.nathanbergey.skills %}
+{{ skill.name }}
 \small
 \begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-  \renewcommand{\labelitemi}{---}
-  \item Primary programming languages: \textsc{c}, Python, Javascript
-  \item Familiar languages: C\#, Java, Arduino, Processing.org, \textsc{sql}
-  \item Markup languages: \textsc{html}/\textsc{css}, \textsc{svg}, \LaTeX
-  \item Libraries and packages: Django, Flask, Bootstrap, d3, Angular
+  \renewcommand{\labelitemi}{-}
+  {% for tag in skill.keywords %}
+  \item {{ tag }}
+  {% endfor %}
 \end{itemize}
+{% endfor %}
 
 \end{document}
