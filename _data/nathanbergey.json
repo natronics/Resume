@@ -1,1 +1,141 @@
-../nathanbergey.json
+{
+  "basics": {
+    "name": "Nathan Bergey",
+    "label": "Programmer",
+    "picture": "",
+    "email": "nathan.bergey@gmail.com",
+    "phone": "(503) 853-9355",
+    "website": "http://natronics.github.io",
+    "summary": "Creative cross-disciplinary programmer with a passion for space. Voracious researcher. Communicates complex ideas with clear explanations and visual analogies.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Boulder",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "natronics",
+      "url": "http://github.com/natronics"
+    }]
+  },
+  "work": [{
+    "company": "Portland State University",
+    "position": "Program Manager, Lab for Interconnected Devices",
+    "website": "https://pdx.edu",
+    "startDate": "2014-08-24",
+    "endDate": "2015-12-18",
+    "summary": "I transformed the L.I.D. into a full prototyping makerspace at Portland State University. I was the lab's first program manager and oversaw a move in to a larger space and its growth into vital part of the school of engineering.",
+    "highlights": [
+        "Build-out of new lab space, acquisition of new machines and capabilities",
+        "Management of a large grant budget",
+        "Taught students prototyping techniques (e.g., 3D printing)",
+        "Developed lab policies and best practices",
+        "Manager of a team of ~5 student volunteers"
+      ]
+    },
+    {
+    "company": "Self Employed",
+    "position": "Consultant, Programmer",
+    "startDate": "2010-01-01",
+    "endDate": "2014-08-24",
+    "summary": "Freelance software developer in Portland, Oregon. Client work included full stack web programming, data visualization, HTML5/JS front end work, and robotics",
+    "highlights": [
+        "Interactive robotics installation for a large technology-focused children's museum",
+        "Charts and report design for a small medical device company"
+      ]
+    },
+    {
+    "company": "Strategic Solutions NW",
+    "position": "Junior Consultant",
+    "website": "http://ssnwllc.com/",
+    "startDate": "2007-03-01",
+    "endDate": "2009-10-01",
+    "summary": "I was a member of a small group of technology and management consultants working for medium to large corporations",
+    "highlights": [
+        "Balanced many projects and clients simultaneously",
+        "Rescued failing projects from other agencies and transformed them into successes"
+     ]
+  }],
+  "volunteer": [{
+    "organization": "Portland State Aerospace Society",
+    "position": "Rocket Scientist And Project Manager",
+    "website": "http://psas.pdx.edu/",
+    "startDate": "2008-03-01",
+    "endDate": "2016-01-16",
+    "summary": "PSAS is an open aerospace engineering project. They are building ultra-low-cost, open source rockets that feature some of the most sophisticated amateur rocket avionics systems in the world.",
+    "highlights": [
+      "Helped push PSAS into one of the premier aerospace clubs around the world",
+      "Made significant contributions in almost all fields e.g: data analysis, software development and management, outreach",
+      "Sponsor/director of three senior Computer Science capstone projects"
+    ]
+  },
+  {
+    "organization": "Open Source Projects",
+    "position": "Programmer",
+    "website": "https://github.com/natronics/",
+    "startDate": "2009-10-29",
+    "endDate": "2016-01-16",
+    "summary": "I've created and worked on several open source projects",
+    "highlights": [
+      "Created a public API to NASA Space Station data, currently used worldwide: ~28 million requests per month",
+      "Contributer to <https://spaceprob.es>",
+      "Started a collection of homebrew state-of-the-art aerospace simulation resrouces: <https://open-aerospace.github.io>"
+    ]
+  }],
+  "education": [{
+    "institution": "Appalachian State University, NC",
+    "area": "Physics",
+    "studyType": "Bachelor of Science",
+    "startDate": "2002-08-01",
+    "endDate": "2006-08-01"
+  }],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Flask",
+        "IPython (Jupyter) Notebook",
+        "Data Analysis",
+        "Data Viz",
+        "Matplotlib"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [
+    {
+      "name": "Space",
+      "keywords": [
+        "NASA",
+        "Launch vehicles",
+        "ISS",
+        "real-time data"
+      ]
+    },
+    {
+      "name": "Data Viz",
+      "keywords": [
+        "python",
+        "IPython (Jupyter) Notebooks",
+        "charting"
+      ]
+    }
+  ],
+  "references": [],
+  "awards": [],
+  "publications": []
+}
