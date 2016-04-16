@@ -1,68 +1,125 @@
-# Résumé of Nathan Bergey
+Résumé of Nathan Bergey
+=========================
 
-Download pdf: [nathanbergey.pdf](https://github.com/natronics/Resume/raw/master/nathanbergey.pdf) (106.9 kB)
+Download pdf: [nathanbergey.pdf](https://natronics.github.io/Resume/nathanbergey.pdf)
 
-## Summary
 
-Creative cross-disciplinary programmer with a background and a 
-passion for spaceflight. Voracious researcher with an appetite for 
-hard problems. Communicates complex ideas with clear explanations 
+Summary
+-------
+
+Creative cross-disciplinary programmer with a passion for space.
+Voracious researcher. Communicates complex ideas with clear explanations
 and visual analogies.
 
-## Experience
+Work Experience
+---------------
 
-### Founder 2011&ndash;Present
+**Program Manager, Lab for Interconnected Devices**   2014–2015\
+*Portland State University, <https://pdx.edu>*
 
-**open-notify.org, Portland, OR**
+I transformed the L.I.D. into a full prototyping makerspace at Portland
+State University. I was the lab’s first program manager and oversaw a
+move in to a larger space and its growth into vital part of the school
+of engineering.
 
-An open source set of spaceflight APIs
+-   Build-out of new lab space, acquisition of new machines and
+    capabilities
+-   Management of a large grant budget
+-   Taught students prototyping techniques (e.g., 3D printing)
+-   Developed lab policies and best practices
+-   Manager of a team of \~5 student volunteers
 
- - First open API for International Space Station passes
- - 10 million requests per month
+------------------------------------------------------------------------
 
-### Consultant 2011&ndash;Present
+**Consultant, Programmer**   2010–2014\
+*Self Employed*
 
-**Self Employed, Portland, OR**
+Freelance software developer in Portland, Oregon. Client work included
+full stack web programming, data visualization, HTML5/JS front end work,
+and robotics
 
-Various work for various companies and individuals
+-   Interactive robotics installation for a large technology-focused
+    children's museum
+-   Charts and report design for a small medical device company
 
- - Data visualization, full stack web, electrical engineering, graphic design, _etc._
- - Focus on web technologies
+------------------------------------------------------------------------
 
-### Rocket Scientist 2008&ndash;Present
+**Junior Consultant**   2007–2009\
+*Strategic Solutions NW, <http://ssnwllc.com/>*
 
-**Portland State Aerospace Society, Portland OR**
+I was a member of a small group of technology and management consultants
+working for medium to large corporations
 
-One of the most advanced amateur rocketry groups in the world
+-   Balanced many projects and clients simultaneously
+-   Rescued failing projects from other agencies and transformed them
+    into successes
 
- - Analyzed flight, simulation, and test data to facilitate an understanding of the physical processes involved in aerospace systems
- - Created an application for real time viewing of data during launches to track flight events and have immediate performance feedback
- - Composed visualizations that helped PSAS comprehend and improve flight models
- - Contributed greatly to PSAS's online presence with typography, graphics, and documentation
- - Clearly communicated group goals as a public speaker; attracted press, talent, and explained complex rocketry concepts to the general public
+Volunteer Work
+--------------
 
-### IT Consultant  2007&ndash;9
+**Rocket Scientist And Project Manager** 2008–2016\
+*Portland State Aerospace Society, <http://psas.pdx.edu/>*
 
-**Strategic Solutions NW, Portland OR** 
+PSAS is an open aerospace engineering project. They are building
+ultra-low-cost, open source rockets that feature some of the most
+sophisticated amateur rocket avionics systems in the world.
 
-A small group of technology and management consultants working for medium to large corporations
+-   Helped push PSAS into one of the premier aerospace clubs around the
+    world
 
- - Balanced many projects at once; meeting deadlines and creating client satisfaction
- - Rescued failing projects from other agencies and transformed them into successes
- 
-## Education
+-   Made significant contributions in almost all fields e.g: data
+    analysis, software development and management, outreach
 
-### Bachelor of Science, Physics  2006
+-   Sponsor/director of three senior Computer Science capstone projects
 
-**Appalachian State University, Boone NC**
+------------------------------------------------------------------------
 
- - Concentration in astronomy; involved in research outside of courses
+**Programmer** 2009–2016\
+*Open Source Projects, <https://github.com/natronics/>*
 
-## Computer Skills
+I’ve created and worked on several open source projects
 
-Comfortable across OS's; works in Linux; Uses many tools often writing my own to fill gaps 
+-   Created a public API to NASA Space Station data, currently used
+    worldwide: \~28 million requests per month
 
- - Primary programming languages: _C_, Python, Javascript
- - Familiar languages: C#, Java, Arduino, Processing.org, SQL
- - Markup languages: HTML/CSS, SVG, LaTeX
- - Libraries and packages: Django, Flask, Bootstrap, d3, Angular
+-   Contributer to <https://spaceprob.es>
+
+-   Started a collection of homebrew state-of-the-art aerospace
+    simulation resrouces: <https://open-aerospace.github.io>
+
+------------------------------------------------------------------------
+
+Education
+---------
+
+**Bachelor of Science, Physics**   2006\
+*Appalachian State University, NC*
+
+Skills
+------
+
+**Web Development**   <span class="tag"
+style="margin-left: 0.2em;">HTML</span> <span class="tag"
+style="margin-left: 0.2em;">CSS</span>
+
+**Python**   <span class="tag" style="margin-left: 0.2em;">Flask</span>
+<span class="tag" style="margin-left: 0.2em;">IPython (Jupyter)
+Notebook</span> <span class="tag" style="margin-left: 0.2em;">Data
+Analysis</span> <span class="tag" style="margin-left: 0.2em;">Data
+Viz</span> <span class="tag"
+style="margin-left: 0.2em;">Matplotlib</span>
+
+Interests
+---------
+
+**Space**   <span class="tag" style="margin-left: 0.2em;">NASA</span>
+<span class="tag" style="margin-left: 0.2em;">Launch vehicles</span>
+<span class="tag" style="margin-left: 0.2em;">ISS</span> <span
+class="tag" style="margin-left: 0.2em;">real-time data</span>
+
+**Data Viz**   <span class="tag"
+style="margin-left: 0.2em;">python</span> <span class="tag"
+style="margin-left: 0.2em;">IPython (Jupyter) Notebooks</span> <span
+class="tag" style="margin-left: 0.2em;">charting</span>
+
+
