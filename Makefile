@@ -1,19 +1,13 @@
 TEXFILE = nathanbergey
 
-all: pdf
+all: nathanbergey.pdf
 
-pdf: jekyll
+nathanbergey.pdf: _site
 	cd _site; pdflatex $(TEXFILE).tex
 	mv _site/$(TEXFILE).pdf ./
-	jekyll build
 
-jekyll:
+_site: _data/nathanbergey.json
 	jekyll build
-
-test:
-	cp nathanbergey.json resume.json
-	resume test
-	rm resume.json
 
 clean:
 	$(RM) -rf _site
