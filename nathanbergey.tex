@@ -49,7 +49,7 @@ fontsize: 10pt
 
 % item
 \newcommand{\resumeitem}[4]{
-  {\addtolength{\leftskip}{0.21in}
+  {\addtolength{\leftskip}{0.10in}
     \begin{tabular*}{6.25in}{l@{\extracolsep{\fill}} r}
       {\textbf{#1}} & {\textbf{#2}} \\
     \end{tabular*}
@@ -57,7 +57,7 @@ fontsize: 10pt
   }
 
   \vspace{0.01in}
-  {\addtolength{\leftskip}{0.3in}
+  {\addtolength{\leftskip}{0.165in}
     \textit{#3}\par
   }
 
@@ -109,20 +109,6 @@ fontsize: 10pt
 {% for school in site.data.nathanbergey.education %}
 \resumeitem{ {{ school.studyType }}, {{ school.area }} } { {{ school.endDate | date: "%Y" }} }%
            { {{ school.institution }} }%
-{% endfor %}
-
-%%%% Skilz
-\resumeheader{Skills}
-
-{% for skill in site.data.nathanbergey.skills %}
-{{ skill.name }}
-\small
-\begin{itemize}[topsep=1pt, itemsep=0pt, parsep=0pt]
-  \renewcommand{\labelitemi}{-}
-  {% for tag in skill.keywords %}
-  \item {{ tag }}
-  {% endfor %}
-\end{itemize}
 {% endfor %}
 
 \end{document}
