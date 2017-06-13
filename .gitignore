@@ -3,3 +3,5 @@ _site
 *.aux
 *.dvi
 *.out
+
+resume.json
