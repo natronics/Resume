@@ -3,7 +3,7 @@
 
   "basics": {
     "name": "Nathan Bergey",
-    "label": "Programmer",
+    "label": "Web Developer",
     "picture": "",
     "email": "nathan.bergey@gmail.com",
     "phone": "(503) 853-9355",
@@ -12,9 +12,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Boulder",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "Colorado"
+      "region": "Pennsylvania"
     },
     "profiles": [{
       "network": "Github",
@@ -31,6 +31,13 @@
         "website": "https://chromatic.fm",
         "startDate": "2016-08-08",
         "endDate": "2017-08-04",
+	    "location": {
+          "address": "885 Arapahoe Ave",
+          "postalCode": "80302",
+          "city": "Boulder",
+          "countryCode": "US",
+          "region": "Colorado"
+	    },
         "summary": "As an early hire at a small startup I undertook a clean-sheet build for a new product. I was responsible for all aspects of the server infrastructure of a mobile streaming music application. I helped grow the development team from the ground up.",
         "highlights": [
             "Designed, implemented, and documented a REST API for the MVP release",
@@ -38,7 +45,6 @@
             "Took requirements from front-end developers, designer, and management to develop product"
         ]
     },
-
 
     {
         "company": "Portland State University",
