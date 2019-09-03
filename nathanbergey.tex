@@ -4,7 +4,7 @@ documentclass: article
 fontsize: 10pt
 ---
 
-\newcommand{\address} {\begin{minipage}{2in}\raggedright1000 Maxwell Ave. Apt 9\par Boulder, CO \ 80304\end{minipage}}
+\newcommand{\address} {\begin{minipage}{2in}\raggedright1134 Mercy St.\par Phila, PA \ 19148\end{minipage}}
 \newcommand{\website} {https://natronics.github.io}
 \newcommand{\phone}   {$503\cdot853\cdot9355$}
 
@@ -95,11 +95,13 @@ fontsize: 10pt
 
 {% for job in site.data.nathanbergey.volunteer %}
 
+{% if job.position != 'Programmer' %}
 \resumeitem{ {{job.position}} }{  {{ job.startDate | date: "%Y" }}--{{ job.endDate | date: "%Y" }} }%
 { {{ job.organization }}, {{ job.website}} }%
 {
   {{ job.summary }}
 }
+{% endif %}
 {% endfor %}
 
 

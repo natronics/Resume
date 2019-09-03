@@ -26,6 +26,22 @@
 
   "work": [
     {
+        "company": "Truveris, Inc.",
+        "position": "Software Engineer",
+        "startDate": "2018-01-15",
+        "location": {
+            "address": "2 Park Ave.",
+            "postalCode": "",
+            "city": "NYC",
+            "countryCode": "US",
+            "region": "New York"
+        },
+        "summary": "Joined a team with ~10 year old product and lots of technical debt. Immersed myself in the existing product and helped modernize the backend infrastructure. Technical lead for a partial re-write of core functionality into a REST API in tandem with a team building a React frontend.",
+        "highlights": [
+            "Modernized complex, aging enviroment"
+        ]
+    },
+    {
         "company": "Chromatic Media Inc.",
         "position": "Director of Backend Technology",
         "website": "https://chromatic.fm",
